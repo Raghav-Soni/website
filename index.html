@@ -45,7 +45,7 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I am interested in optimal control, reinforcement learning, optimization, and computer vision. My research work focuses on developing robust controllers for legged robotic systems. I look forward to development of resilient vision based controllers for legged robotic systems that would enable them to be deployed in human-centric enviorment. Representative works are <span class="highlight">highlighted</span>.
+                I am interested in optimal control, reinforcement learning, optimization, and computer vision. My research work focuses on developing robust controllers for legged robotic systems. I look forward to development of resilient vision based controllers for legged robotic systems that would enable them to be deployed in human-centric enviroments. Representative works are <span class="highlight">highlighted</span>.
               </p>
               <heading>Publications</heading>
             </td>
@@ -54,90 +54,90 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 				
 		  
-          <tr onmouseout="mira_stop()" onmouseover="mira_start()">
+          <tr onmouseout="melp_stop()" onmouseover="melp_start()"  bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='mira_image'>
-                  <img src='images/mira_after.jpg' width="160"></div>
-                <img src='images/mira_before.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function mira_start() {
-                  document.getElementById('mira_image').style.opacity = "1";
-                }
-
-                function mira_stop() {
-                  document.getElementById('mira_image').style.opacity = "0";
-                }
-                mira_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://openreview.net/forum?id=AmPeAFzU3a4">
-                <papertitle>MIRA: Mental Imagery for Robotic Affordances</papertitle>
-              </a>
-              <br>
-              <a href="https://yenchenlin.me/">Lin Yen-Chen</a>, 
-              <a href="http://www.peteflorence.com/">Pete Florence</a>, 
-              <a href="https://andyzeng.github.io/">Andy Zeng</a>, <strong>Jonathan T. Barron</strong>, 
-              <a href="https://yilundu.github.io/">Yilun Du</a>,
-              <a href="https://people.csail.mit.edu/weichium/">Wei-Chiu Ma</a>,
-              <a href="https://anthonysimeonov.github.io/">Anthony Simeonov</a>,
-              <a href="https://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU">Alberto Rodriguez</a>,
-              <a href="http://web.mit.edu/phillipi/">Phillip Isola</a>
-              <br>
-              <em>CoRL</em>, 2022
-              <p></p>
-              <p>
-                NeRF lets us synthesize novel orthographic views that work well with pixel-wise algorithms for robotic manipulation.
-              </p>
-            </td>
-          </tr>		
-          
-          
-          <tr onmouseout="dreamfusion_stop()" onmouseover="dreamfusion_start()"  bgcolor="#ffffd0">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='dreamfusion_image'><video  width=100% height=100% muted autoplay loop>
+                <div class="two" id='melp_image'><video  width=100% height=100% muted autoplay loop>
                 <source src="images/dreamfusion.mp4" type="video/mp4">
                 Your browser does not support the video tag.
                 </video></div>
                 <img src='images/dreamfusion.jpg' width="160">
               </div>
               <script type="text/javascript">
-                function dreamfusion_start() {
-                  document.getElementById('dreamfusion_image').style.opacity = "1";
+                function melp_start() {
+                  document.getElementById('melp_image').style.opacity = "1";
                 }
 
-                function dreamfusion_stop() {
-                  document.getElementById('dreamfusion_image').style.opacity = "0";
+                function melp_stop() {
+                  document.getElementById('melp_image').style.opacity = "0";
                 }
-                dreamfusion_stop()
+                melp_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://dreamfusion3d.github.io/">
-                <papertitle>DreamFusion: Text-to-3D using 2D Diffusion</papertitle>
-              </a>
+              <papertitle>MELP: Model Embedded Linear Policies for Robust Bipedal Hopping</papertitle>
+              <br> 
+              <strong>Raghav Soni</strong>, 
+              <a href="https://www.linkedin.com/in/guillermo-castillo-m">Guillermo A. Castillo</a>,
+              <a href="https://lok-i.github.io/website/">Lokesh Krishna</a>,
+              <a href="https://mae.osu.edu/people/hereid.1">Ayonga Hereid</a>,
+              <a href="http://www.shishirny.com/">Shishir Kolathaya</a>,
               <br>
-              <a href="https://cs.stanford.edu/~poole/">Ben Poole</a>,
-              <a href="https://www.ajayj.com/">Ajay Jain</a>,
-              <strong>Jonathan T. Barron</strong>,
-							<a href="https://bmild.github.io/">Ben Mildenhall</a>
+              <em>ICRA</em>, 2023 (Under Review)
               <br>
-              <em>arXiv</em>, 2022
-              <br>
-              <a href="https://dreamfusion3d.github.io/">project page</a>
+              <a href="https://drive.google.com/file/d/1O0a8gbF_W7_lXh_qTJXYNZBqYzgOwigK/view?usp=sharing">Paper</a>
               /
-              <a href="https://arxiv.org/abs/2209.14988">arXiv</a>
-              /
-              <a href="https://dreamfusion3d.github.io/gallery.html">gallery</a>
+              <a href="https://drive.google.com/file/d/1jdJfbNieqOQ7op6wFl9VppVKoiHE5vQs/view?usp=sharing">Video</a>
               <p></p>
               <p>
-              We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling.
+                We show how
+                to embed Spring Loaded Inverted Pendulum (SLIP) model in
+                the proposed linear policy class and realize perpetual hopping in arbitrary
+                directions.
               </p>
             </td>
-          </tr>
+          </tr>		
+          
+          
+          <tr onmouseout="hop_stop()" onmouseover="hop_start()"  bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='hop_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/dreamfusion.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/dreamfusion.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function hop_start() {
+                  document.getElementById('hop_image').style.opacity = "1";
+                }
+
+                function hop_stop() {
+                  document.getElementById('hop_image').style.opacity = "0";
+                }
+                hop_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>End-to-End Reinforcement Learning for Torque Based Variable Height Hopping</papertitle>
+              <br> 
+              <strong>Raghav Soni</strong>, 
+              <a href="https://de.linkedin.com/in/daniel-harnack-98b758103">Daniel Harnack</a>,
+              <a href="https://robotik.dfki-bremen.de/en/about-us/staff/shku02.html?no_cache=1&cHash=3e22e264f5cb0fd7045735762831f71a">Shivesh Kumar</a>,
+              <a href="https://robotik.dfki-bremen.de/de/ueber-uns/mitarbeiter/frki01.html">Frank Kirchner</a>
+              <br>
+              <em>ICRA</em>, 2023 (Under Review)
+              <br>
+              <a href="https://drive.google.com/file/d/1Zy2mG_nZhEQfytB4BwP-ZDfp4bLkE_H7/view?usp=sharing">Paper</a>
+              /
+              <a href="https://drive.google.com/file/d/1-TCEE2levwch_1rQ5w8ld7U0Ov5NJ9UQ/view?usp=sharing">Video</a>
+              <p></p>
+              <p>
+                We present a end-to-end RL based torque controller that learns to implicitly detect the relevant jump phases, removing the need to provide manual heuristics for state detection. We also extend a method for simulation to reality transfer of the learned controller to contact rich dynamic tasks, resulting in successful deployment on the robot after training without parameter tuning.
+              </p>
+            </td>
+          </tr>	
 
         </tbody></table>
 
@@ -152,45 +152,267 @@
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 				
 		  
-        <tr onmouseout="mira_stop()" onmouseover="mira_start()">
+        <tr onmouseout="pap_stop()" onmouseover="pap_start()" bgcolor="#ffffd0">
           <td style="padding:20px;width:25%;vertical-align:middle">
             <div class="one">
-              <div class="two" id='mira_image'>
+              <div class="two" id='pap_image'><video  width=100% height=100% muted autoplay loop>
+              <source src="images/dreamfusion.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video></div>
+              <img src='images/dreamfusion.jpg' width="160">
+            </div>
+            <script type="text/javascript">
+              function pap_start() {
+                document.getElementById('pap_image').style.opacity = "1";
+              }
+
+              function pap_stop() {
+                document.getElementById('pap_image').style.opacity = "0";
+              }
+              pap_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle>Intelligent Picking : Warehouse Automation</papertitle>
+            <br> 
+            <a href="https://terabyte17.github.io/">Yash Sahijwani</a>,
+            <strong>Raghav Soni</strong>, 
+            <a href="https://in.linkedin.com/in/ayush-kumar-shaw-5698a719a">Ayush Kumar Shaw</a>,
+            <a href="https://www.linkedin.com/in/niranth-sai-35386b179/?originalSubdomain=in">Niranth Sai</a>,
+            <a href="https://lok-i.github.io/website/">Lokesh Krishna</a>
+            <br>
+            <em>Flipkart Grid 2.0</em>, National Finalists
+            <br>
+            <a href="https://github.com/RaISy-Net/Intelligent_picking/blob/master/docs/X%20Ash%20A%20-%2012_IIT%20(BHU)%20Varanasi_Intelligent_Picking_-_Round_3.pdf">Slides</a>
+            /
+            <a href="https://github.com/Raghav-Soni/Intelligent_picking">GitHub</a>
+            /
+            <a href="https://www.youtube.com/watch?v=IlN6-pN3mRA">Video</a>
+            <p></p>
+            <p>
+              Designed an intelligent object picking robot inspired by the 3D printer's structure in simulation. YOLOv3 was used for object detection and GR-ConvNet was used to generate robust antipodal grasps from images of a RGB-D camera.
+            </p>
+          </td>
+        </tr>	
+
+        <tr onmouseout="lip_stop()" onmouseover="lip_start()" bgcolor="#ffffd0">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='lip_image'><video  width=100% height=100% muted autoplay loop>
+              <source src="images/dreamfusion.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video></div>
+              <img src='images/dreamfusion.jpg' width="160">
+            </div>
+            <script type="text/javascript">
+              function lip_start() {
+                document.getElementById('lip_image').style.opacity = "1";
+              }
+
+              function lip_stop() {
+                document.getElementById('lip_image').style.opacity = "0";
+              }
+              lip_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle>Dynamic Linear Inverted Pendulum (LIP) trajectories with position control</papertitle>
+            <br> 
+            <strong>Raghav Soni</strong>, 
+            <a href="https://www.iitbbs.ac.in/old/profile.php/pandu/">Dr. Pandu Ranga Vundavilli</a>
+            <br>
+            <a href="https://github.com/Raghav-Soni/Inverted-Pendulum-Model-Trajectory-For-Biped">GitHub</a>
+            <p></p>
+            <p>
+              Developed a framework to generate dynamic Linear Inverted Pendulum (LIP) trajectories and implemented a position based controller to track these trajectories on the humanoid Thormang3 in simulation. Added stabilizing heuristics and vision algorithms for dynamic obstacle avoidance and stair climbing.
+            </p>
+          </td>
+        </tr>	
+
+
+        <tr onmouseout="cps_stop()" onmouseover="cps_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='cps_image'>
                 <img src='images/mira_after.jpg' width="160"></div>
               <img src='images/mira_before.jpg' width="160">
             </div>
             <script type="text/javascript">
-              function mira_start() {
-                document.getElementById('mira_image').style.opacity = "1";
+              function cps_start() {
+                document.getElementById('cps_image').style.opacity = "1";
               }
 
-              function mira_stop() {
-                document.getElementById('mira_image').style.opacity = "0";
+              function cps_stop() {
+                document.getElementById('cps_image').style.opacity = "0";
               }
-              mira_stop()
+              cps_stop()
             </script>
           </td>
           <td style="padding:20px;width:75%;vertical-align:middle">
-            <a href="https://openreview.net/forum?id=AmPeAFzU3a4">
-              <papertitle>MIRA: Mental Imagery for Robotic Affordances</papertitle>
+            <papertitle>Handwritten Character Segmentation and Recognition</papertitle>
             </a>
             <br>
-            <a href="https://yenchenlin.me/">Lin Yen-Chen</a>, 
-            <a href="http://www.peteflorence.com/">Pete Florence</a>, 
-            <a href="https://andyzeng.github.io/">Andy Zeng</a>, <strong>Jonathan T. Barron</strong>, 
-            <a href="https://yilundu.github.io/">Yilun Du</a>,
-            <a href="https://people.csail.mit.edu/weichium/">Wei-Chiu Ma</a>,
-            <a href="https://anthonysimeonov.github.io/">Anthony Simeonov</a>,
-            <a href="https://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU">Alberto Rodriguez</a>,
-            <a href="http://web.mit.edu/phillipi/">Phillip Isola</a>
+            <strong>Raghav Soni</strong>, 
+            <a href="https://terabyte17.github.io/">Yash Sahijwani</a>, 
+            <a href="https://in.linkedin.com/in/ayush-kumar-shaw-5698a719a">Ayush Kumar Shaw</a>, 
+            <a href="https://www.iitbhu.ac.in/dept/ece/people/aksinghece">Dr. A K Singh</a>
             <br>
-            <em>CoRL</em>, 2022
+            <em>Exploratory Project</em>, Department of Electronics Engineering, IIT (BHU)
+            <br>
+            <a href="https://github.com/Raghav-Soni/Handwitten-character-Segmentation-And-Recognition">GitHub</a>
+            /
+            <a href="https://github.com/Raghav-Soni/Handwitten-character-Segmentation-And-Recognition/blob/main/report.pdf">Report</a>            
             <p></p>
             <p>
-              NeRF lets us synthesize novel orthographic views that work well with pixel-wise algorithms for robotic manipulation.
+              Developed a computer vision based solution to filter noise and segment characters. This was followed by a custom made CNN trained using EMNIST dataset to recognise the segmented characters.
             </p>
           </td>
         </tr>
+
+        <tr onmouseout="acr_stop()" onmouseover="acr_start()" bgcolor="#ffffd0">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='acr_image'>
+                <img src='images/mira_after.jpg' width="160"></div>
+              <img src='images/mira_before.jpg' width="160">
+            </div>
+            <script type="text/javascript">
+              function acr_start() {
+                document.getElementById('acr_image').style.opacity = "1";
+              }
+
+              function acr_stop() {
+                document.getElementById('acr_image').style.opacity = "0";
+              }
+              acr_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle>Adversarial Chase and Run Cars</papertitle>
+            </a>
+            <br>
+            <strong>Raghav Soni</strong>, 
+            <a href="https://terabyte17.github.io/">Yash Sahijwani</a>, 
+            <a href="https://in.linkedin.com/in/ayush-kumar-shaw-5698a719a">Ayush Kumar Shaw</a>
+            <br>
+            <em>Research Project</em>, RoboReG, IIT (BHU)
+            <br>
+            <a href="https://github.com/Robotics-Club-IIT-BHU/gym-adversarial-cars">GitHub</a>
+            /
+            <a href="https://robotics-club-iit-bhu.github.io/RoboReG/projects/chase-and-run.html">Project Page</a>            
+            <p></p>
+            <p>
+              Developed an Adversarial Chase and Run Cars custom gym environment, to test and develop algorithms related to Multi Agent Systems, especially those related to Multi-Agent Reinforcement Learning. Tested various Multi-Agent Reinforcement Learning algorithms including a custom version of DQN and MADDPG. 
+            </p>
+          </td>
+        </tr>
+
+        <tr onmouseout="aem_stop()" onmouseover="aem_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='aem_image'>
+                <img src='images/mira_after.jpg' width="160"></div>
+              <img src='images/mira_before.jpg' width="160">
+            </div>
+            <script type="text/javascript">
+              function aem_start() {
+                document.getElementById('aem_image').style.opacity = "1";
+              }
+
+              function aem_stop() {
+                document.getElementById('aem_image').style.opacity = "0";
+              }
+              aem_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle>Autonomous Environment Mapping Robot</papertitle>
+            </a>
+            <br>
+            <strong>Raghav Soni</strong>, 
+            <a href="https://terabyte17.github.io/">Yash Sahijwani</a>, 
+            <a href="https://vikhyath08.github.io/">Vikhyath Venkatraman</a>
+            <br>
+            <em>Exploratory Project</em>, Robotics Club, IIT (BHU)
+            <br>
+            <a href="https://github.com/Raghav-Soni/Autonomous-Environment-Mapping-Robot">GitHub</a>
+            /
+            <a href="https://github.com/Terabyte17/Autonomous-Environment-Mapping-Robot/blob/master/Autonomous%20Env%20Mapping%20Robot.pdf">Report</a>            
+            <p></p>
+            <p>
+              Developed an autonomous wheeled robot in PyBullet simulation with custom implemented and calibrated stereo camera for depth sensing and YOLOv3 for object detection. The wheeled robot is capable of traversing the environment without colliding and map it simultanously.
+            </p>
+          </td>
+        </tr>
+
+        <tr onmouseout="sdc_stop()" onmouseover="sdc_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='sdc_image'><video  width=100% height=100% muted autoplay loop>
+              <source src="images/dreamfusion.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video></div>
+              <img src='images/dreamfusion.jpg' width="160">
+            </div>
+            <script type="text/javascript">
+              function sdc_start() {
+                document.getElementById('sdc_image').style.opacity = "1";
+              }
+
+              function sdc_stop() {
+                document.getElementById('sdc_image').style.opacity = "0";
+              }
+              sdc_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle>Dynamic Linear Inverted Pendulum (LIP) trajectories with position control</papertitle>
+            <br> 
+            <strong>Raghav Soni</strong>, 
+            <a href="https://www.iitbbs.ac.in/old/profile.php/pandu/">Dr. Pandu Ranga Vundavilli</a>
+            <br>
+            <a href="https://github.com/Raghav-Soni/Inverted-Pendulum-Model-Trajectory-For-Biped">GitHub</a>
+            <p></p>
+            <p>
+              Developed a framework to generate dynamic Linear Inverted Pendulum (LIP) trajectories and implemented a position based controller to track these trajectories on the humanoid Thormang3 in simulation. Added stabilizing heuristics and vision algorithms for dynamic obstacle avoidance and stair climbing.
+            </p>
+          </td>
+        </tr>	
+
+        <tr onmouseout="digi_stop()" onmouseover="digi_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='digi_image'><video  width=100% height=100% muted autoplay loop>
+              <source src="images/dreamfusion.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video></div>
+              <img src='images/dreamfusion.jpg' width="160">
+            </div>
+            <script type="text/javascript">
+              function digi_start() {
+                document.getElementById('digi_image').style.opacity = "1";
+              }
+
+              function digi_stop() {
+                document.getElementById('digi_image').style.opacity = "0";
+              }
+              digi_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle>Dynamic Linear Inverted Pendulum (LIP) trajectories with position control</papertitle>
+            <br> 
+            <strong>Raghav Soni</strong>, 
+            <a href="https://www.iitbbs.ac.in/old/profile.php/pandu/">Dr. Pandu Ranga Vundavilli</a>
+            <br>
+            <a href="https://github.com/Raghav-Soni/Inverted-Pendulum-Model-Trajectory-For-Biped">GitHub</a>
+            <p></p>
+            <p>
+              Developed a framework to generate dynamic Linear Inverted Pendulum (LIP) trajectories and implemented a position based controller to track these trajectories on the humanoid Thormang3 in simulation. Added stabilizing heuristics and vision algorithms for dynamic obstacle avoidance and stair climbing.
+            </p>
+          </td>
+        </tr>	
+
         </tbody></table>
 
 				
